@@ -3,19 +3,19 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_camera"
+            android:id="@+id/event"
             android:icon="@drawable/ic_event"
             android:title="Events" />
         <item
-            android:id="@+id/nav_gallery"
+            android:id="@+id/schedule"
             android:icon="@drawable/ic_schedule"
             android:title="Schedule" />
         <item
-            android:id="@+id/nav_slideshow"
+            android:id="@+id/aboutFusion"
             android:icon="@drawable/ic_description"
             android:title="About Fusion" />
         <item
-            android:id="@+id/nav_share"
+            android:id="@+id/member"
             android:icon="@drawable/ic_member"
             android:title="Core Members" />
         <!--
@@ -29,11 +29,11 @@
         <menu>
 
             <item
-                android:id="@+id/nav_send"
+                android:id="@+id/develop"
                 android:icon="@drawable/ic_menu_send"
                 android:title="Developed By" />
             <item
-            android:id="@+id/nav_send1"
+            android:id="@+id/about_us"
             android:icon="@drawable/ic_info"
             android:title="About Us" />
             <item
