@@ -3,6 +3,17 @@
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-
+    <string name="events">EVENTS</string>
     <string name="action_settings">Settings</string>
+
+    <string name="title_activity_testing">testing</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="abtfusiondisc">\t\t\t\tFusion is the annual Techno-Cultural festival of, PadmabhushanVasantdada Patil Pratishthan’s College of Engineering. Fusion means a combination of different materials, which in our case, is a mixture of technical and cultural activities .Fusion is a platform for students to show off their Technical and Creative skills. It is a tradition of this college which is being followed for more than 17 years now. Fusion: Glitters of unity and exuberance, a three day long extravaganza. An event that will provide not only fun and frolic, but the opportunity to interact with pupils of different institutions .Fusion is the platform to showcase talent of a student. The event will host a bagful of activities.</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_tabtest">Events</string>
+    <string name="title_send_feedback">Send feedback</string>
+    <string name="mail_feedback_email">vivekmaheshsahu@gmail.com</string>
+    <string name="mail_feedback_subject">Feedback on Bhajan Aarti app</string>
 </resources>

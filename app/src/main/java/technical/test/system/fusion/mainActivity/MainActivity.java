@@ -1,5 +1,6 @@
 package technical.test.system.fusion.mainActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.v4.view.ViewPager;
@@ -10,10 +11,17 @@ import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 
+import technical.test.system.fusion.About_fusion;
+import technical.test.system.fusion.FeedbackActivity;
 import technical.test.system.fusion.R;
+import technical.test.system.fusion.about_us;
+import technical.test.system.fusion.schedule;
+import technical.test.system.fusion.tabtest;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -82,26 +90,77 @@ public class MainActivity extends AppCompatActivity
     public boolean onNavigationItemSelected(MenuItem item) {
         // Handle navigation view item clicks here.
         int id = item.getItemId();
-
-        if (id == R.id.nav_camera) {
-            // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
-
-        } else if (id == R.id.nav_slideshow) {
-
+        if(id == R.id.event)
+        {
+            Intent intent = new Intent(this,tabtest.class);
+            startActivity(intent);
         }
-        /*else if (id == R.id.nav_manage) {
-
-        }*/
-        else if (id == R.id.nav_share) {
-
-        } else if (id == R.id.nav_send) {
-
+        if(id == R.id.schedule)
+        {
+            Intent intent = new Intent(this,schedule.class);
+            startActivity(intent);
+        }
+        if(id == R.id.aboutFusion)
+        {
+            Intent intent = new Intent(this,About_fusion.class);
+            startActivity(intent);
+        }
+        if (id == R.id.member) {
+            Toast.makeText(this, "Coming Soon", Toast.LENGTH_SHORT).show();
+        } else if (id == R.id.develop) {
+            Toast.makeText(this, "Coming Soon", Toast.LENGTH_SHORT).show();
+        } else if (id == R.id.about_us) {
+           Intent intent = new Intent(this,about_us.class);
+            startActivity(intent);
+        }
+        else if (id == R.id.shareOption) {
+            Toast.makeText(this, "Coming Soon", Toast.LENGTH_SHORT).show();
+        } else if (id == R.id.feedbackOption) {
+            Intent intent = new Intent(this, FeedbackActivity.class);
+            startActivity(intent);
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }
+    public void doSomething(View v){
+
+        if(v.getId()==R.id.image1){
+            Intent i = new Intent(this,About_fusion.class);
+            startActivity(i);
+        }
+        if(v.getId()==R.id.image2){
+            Intent i2 = new Intent(this,about_us.class);
+            startActivity(i2);
+        }
+        if(v.getId()==R.id.image3){
+            Intent i2 = new Intent(this,tabtest.class);
+            startActivity(i2);
+        }
+//        if(v.getId()==R.id.image5){
+//            Intent i2 = new Intent(this,Visitweb.class);
+//            startActivity(i2);
+//        }
+//
+//        if(v.getId()==R.id.image6){
+//            Intent i2 = new Intent(this,Web.class);
+//            startActivity(i2);
+//        }
+//        if(v.getId()==R.id.cont){
+//            Intent i2 = new Intent(this,Contactus.class);
+//            startActivity(i2);
+//        }
+//        if(v.getId()==R.id.dev){
+//            Intent i2 = new Intent(this,Developed.class);
+//            startActivity(i2);
+//        }
+        if(v.getId()==R.id.scduele){
+            Intent i2 = new Intent(this,schedule.class);
+            startActivity(i2);
+        }
+
+    }
+
 }
 
