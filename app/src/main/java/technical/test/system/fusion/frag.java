@@ -27,49 +27,55 @@ public class frag extends android.support.v4.app.ListFragment implements Adapter
 
     @Override
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-//
-//        if( position==0)
-//        {
-//            Intent i=new Intent(this.getActivity(),Tpp.class);
-//            startActivity(i);
-//        }
-//        else if(position==1)
-//        {
-//            Intent i=new Intent(this.getActivity(),webby.class);
-//            startActivity(i);
-//        }
-//        else if(position==2)
-//        {
-//            Intent i=new Intent(this.getActivity(),Codex.class);
-//            startActivity(i);
-//        } else if(position==3)
-//        {
-//            Intent i=new Intent(this.getActivity(),Dreamjob.class);
-//            startActivity(i);
-//        } else if(position==4)
-//        {
-//            Intent i=new Intent(this.getActivity(),Textit.class);
-//            startActivity(i);
-//        } else if(position==5)
-//        {
-//            Intent i=new Intent(this.getActivity(),Treasure.class);
-//            startActivity(i);
-//        } else if(position==6)
-//        {
-//            Intent i=new Intent(this.getActivity(),Techno.class);
-//            startActivity(i);
-//        } else if(position==7)
-//        {
-//            Intent i=new Intent(this.getActivity(),Ad_mania.class);
-//            startActivity(i);
-//        } else if(position==8)
-//        {
-//            Intent i=new Intent(this.getActivity(),Circuitrix.class);
-//            startActivity(i);
-//        } else if(position==9)
-//        {
-//            Intent i=new Intent(this.getActivity(),MockP.class);
-//            startActivity(i);
-//        }
+
+        if( position==0)
+        {
+            Intent i=new Intent(this.getActivity(),Tpp.class);
+            startActivity(i);
+        }
+        else if(position==1)
+        {
+            Intent i=new Intent(this.getActivity(),webby.class);
+            startActivity(i);
+        }
+        else if(position==2)
+        {
+            Intent i=new Intent(this.getActivity(),Codex.class);
+            startActivity(i);
+        }
+        else if(position==3)
+        {
+            Intent i=new Intent(this.getActivity(),Dreamjob.class);
+            startActivity(i);
+        }
+        else if(position==4)
+        {
+            Intent i=new Intent(this.getActivity(),Textit.class);
+            startActivity(i);
+        }
+ else if(position==5)
+        {
+            Intent i=new Intent(this.getActivity(),Treasure.class);
+            startActivity(i);
+        }
+ else if(position==6)
+        {
+            Intent i=new Intent(this.getActivity(),Techno.class);
+            startActivity(i);
+        }
+        else if(position==7)
+        {
+            Intent i=new Intent(this.getActivity(),Ad_mania.class);
+            startActivity(i);
+        }
+ else if(position==8)
+        {
+            Intent i=new Intent(this.getActivity(),Circuitrix.class);
+            startActivity(i);
+        } else if(position==9)
+        {
+            Intent i=new Intent(this.getActivity(),MockP.class);
+            startActivity(i);
+        }
     }
 }

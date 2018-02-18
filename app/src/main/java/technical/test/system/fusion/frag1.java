@@ -31,49 +31,51 @@ public class frag1 extends android.support.v4.app.ListFragment implements Adapte
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
             // TODO Auto-generated method stub
-//        if( position==0)
-//        {
-//            Intent i=new Intent(this.getActivity(),Maiboli.class);
-//            startActivity(i);
-//        }
-//        else if(position==1)
-//        {
-//            Intent i=new Intent(this.getActivity(),Dance.class);
-//            startActivity(i);
-//        }
-//        else if(position==2)
-//        {
-//            Intent i=new Intent(this.getActivity(),Antakshari.class);
-//            startActivity(i);
-//        } else if(position==3)
-//        {
-//            Intent i=new Intent(this.getActivity(),Mozart.class);
-//            startActivity(i);
-//        } else if(position==4)
-//        {
-//            Intent i=new Intent(this.getActivity(),Rap.class);
-//            startActivity(i);
-//        } else if(position==5)
-//        {
-//            Intent i=new Intent(this.getActivity(),Rock.class);
-//            startActivity(i);
-//        } else if(position==6)
-//        {
-//            Intent i=new Intent(this.getActivity(),Hargali.class);
-//            startActivity(i);
-//        } else if(position==7)
-//        {
-//            Intent i=new Intent(this.getActivity(),MrMrs.class);
-//            startActivity(i);
-//        } else if(position==8)
-//        {
-//            Intent i=new Intent(this.getActivity(),Dramebaaz.class);
-//            startActivity(i);
-//        } else if(position==9)
-//        {
-//            Intent i=new Intent(this.getActivity(),Shortcut.class);
-//            startActivity(i);
-//        }
+        if( position==0)
+        {
+            Intent i=new Intent(this.getActivity(),Maiboli.class);
+            startActivity(i);
+        }
+        else if(position==1)
+        {
+            Intent i=new Intent(this.getActivity(),Dance.class);
+            startActivity(i);
+        }
+        else if(position==2)
+        {
+            Intent i=new Intent(this.getActivity(),Antakshari.class);
+            startActivity(i);
+        } else if(position==3)
+        {
+            Intent i=new Intent(this.getActivity(),Mozart.class);
+
+            startActivity(i);
+        } else if(position==4)
+        {
+            Intent i=new Intent(this.getActivity(),Rap.class);
+            startActivity(i);
+        } else if(position==5)
+        {
+            Intent i=new Intent(this.getActivity(),Rock.class);
+            startActivity(i);
+        }
+        else if(position==6)
+        {
+            Intent i=new Intent(this.getActivity(),Hargali.class);
+            startActivity(i);
+        } else if(position==7)
+        {
+            Intent i=new Intent(this.getActivity(),MrMrs.class);
+            startActivity(i);
+        } else if(position==8)
+        {
+            Intent i=new Intent(this.getActivity(),Dramebaaz.class);
+            startActivity(i);
+        } else if(position==9)
+        {
+            Intent i=new Intent(this.getActivity(),Shortcut.class);
+            startActivity(i);
+        }
             }
     }
 
