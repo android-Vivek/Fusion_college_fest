@@ -2,6 +2,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="technical.test.system.fusion">
 
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,10 +14,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
         <activity
             android:name=".mainActivity.MainActivity"
             android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".splashScreen.Splash"
             android:screenOrientation="portrait"
@@ -23,57 +29,59 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".schedule"/>
-        <activity android:name=".About_fusion"></activity>
-        <activity android:name=".about_us"/>
+        <activity android:name=".schedule" />
+        <activity android:name=".About_fusion" />
+        <activity android:name=".about_us" />
         <activity
             android:name=".tabtest"
             android:label="@string/title_activity_tabtest"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.NoActionBar" />
-        <activity android:name=".FeedbackActivity"/>
-        <activity android:name=".Tpp"/>
-        <activity android:name=".webby"/>
-        <activity android:name=".Codex"/>
-        <activity android:name=".Treasure"/>
-        <activity android:name=".Ad_mania"/>
-        <activity android:name=".Techno"/>
-        <activity android:name=".Textit"/>
-        <activity android:name=".Dreamjob"/>
-        <activity android:name=".MockP"/>
-        <activity android:name=".Circuitrix"/>
-        <activity android:name=".Maiboli"/>
-        <activity android:name=".Mozart"/>
-        <activity android:name=".Antakshari"/>
-        <activity android:name=".Rap"/>
-        <activity android:name=".Rock"/>
-        <activity android:name=".Dance"/>
-        <activity android:name=".Shortcut"/>
-        <activity android:name=".Dramebaaz"/>
-        <activity android:name=".MrMrs"/>
-        <activity android:name=".Hargali"/>
-<activity android:name=".Sketch"/>
-        <activity android:name=".Rubix"/>
-        <activity android:name=".Boxcric"/>
-        <activity android:name=".Rink"/>
-        <activity android:name=".Rangoli"/>
-        <activity android:name=".Bakasur"/>
-        <activity android:name=".Sixty"/>
-        <activity android:name=".Bathroom"/>
-        <activity android:name=".PicHunt"/>
-        <activity android:name=".Lazer"/>
-        <activity android:name=".Striker"/>
-        <activity android:name=".Beg"/>
-        <activity android:name=".Apahran"/>
-        <activity android:name=".Masterchef"/>
-        <activity android:name=".Langame"/>
-        <activity android:name=".trip"/>
-        <activity android:name="tshirt"/>
-        <activity android:name=".pullpush"/>
-        <activity android:name=".sketchlyrics"/>
+        <activity android:name=".FeedbackActivity" />
+        <activity android:name=".Tpp" />
+        <activity android:name=".webby" />
+        <activity android:name=".Codex" />
+        <activity android:name=".Treasure" />
+        <activity android:name=".Ad_mania" />
+        <activity android:name=".Techno" />
+        <activity android:name=".Textit" />
+        <activity android:name=".Dreamjob" />
+        <activity android:name=".MockP" />
+        <activity android:name=".Circuitrix" />
+        <activity android:name=".Maiboli" />
+        <activity android:name=".Mozart" />
+        <activity android:name=".Antakshari" />
+        <activity android:name=".Rap" />
+        <activity android:name=".Rock" />
+        <activity android:name=".Dance" />
+        <activity android:name=".Shortcut" />
+        <activity android:name=".Dramebaaz" />
+        <activity android:name=".MrMrs" />
+        <activity android:name=".Hargali" />
+        <activity android:name=".Sketch" />
+        <activity android:name=".Rubix" />
+        <activity android:name=".Boxcric" />
+        <activity android:name=".Rink" />
+        <activity android:name=".Rangoli" />
+        <activity android:name=".Bakasur" />
+        <activity android:name=".Sixty" />
+        <activity android:name=".Bathroom" />
+        <activity android:name=".PicHunt" />
+        <activity android:name=".Lazer" />
+        <activity android:name=".Striker" />
+        <activity android:name=".Beg" />
+        <activity android:name=".Apahran" />
+        <activity android:name=".Masterchef" />
+        <activity android:name=".Langame" />
+        <activity android:name=".trip" />
+        <activity android:name=".tshirt" />
+        <activity android:name=".pullpush" />
+        <activity android:name=".sketchlyrics" />
         <activity android:name=".chess" />
-        <activity android:name=".table"/>
-   <activity android:name=".Ratta"/>
+        <activity android:name=".table" />
+        <activity android:name=".Ratta" />
+        <activity android:name=".Registration.Register"></activity>
+        <activity android:name=".Developed"/>
     </application>
 
 </manifest>

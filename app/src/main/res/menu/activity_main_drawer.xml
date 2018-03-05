@@ -13,9 +13,9 @@
             android:icon="@drawable/ic_schedule"
             android:title="Schedule" />
         <item
-            android:id="@+id/aboutFusion"
+            android:id="@+id/reg"
             android:icon="@drawable/ic_description"
-            android:title="About Fusion" />
+            android:title="Enquire Form" />
         <item
             android:id="@+id/member"
             android:icon="@drawable/ic_member"
