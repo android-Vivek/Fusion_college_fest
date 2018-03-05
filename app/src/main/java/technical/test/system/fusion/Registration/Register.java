@@ -18,6 +18,7 @@ public class Register extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
+        setTitle("Enquire Form");
          etname = (EditText)findViewById(R.id.etname);
         etemail = (EditText)findViewById(R.id.etemail);
         etmobile = (EditText)findViewById(R.id.editText3);

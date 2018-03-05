@@ -15,7 +15,7 @@
         <item
             android:id="@+id/reg"
             android:icon="@drawable/ic_description"
-            android:title="Register  Now" />
+            android:title="Enquire Form" />
         <item
             android:id="@+id/member"
             android:icon="@drawable/ic_member"

@@ -8,4 +8,6 @@
     <color name="black_overlay">#66000000</color>
     <color name="white">#ffffff</color>
     <color name="blue">#767ef7</color>
+    <color name="colorBackground">#413e4f</color>
+    <color name="colorTextHint">#51d8c7</color>
 </resources>

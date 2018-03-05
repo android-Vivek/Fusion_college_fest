@@ -113,7 +113,7 @@ The aptness of choreography for the  music, presentation, innovation, uniqueness
                     android:layout_height="wrap_content">
                     <Button
                         android:background="@color/blue"
-                        android:text="Register Now"
+                        android:text="Enquire Form"
                         android:textSize="25dp"
                         android:onClick="register"
                         android:layout_gravity="top"
