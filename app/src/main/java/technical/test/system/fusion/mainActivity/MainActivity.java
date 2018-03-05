@@ -17,8 +17,10 @@ import android.widget.Toast;
 import java.util.ArrayList;
 
 import technical.test.system.fusion.About_fusion;
+import technical.test.system.fusion.Developed;
 import technical.test.system.fusion.FeedbackActivity;
 import technical.test.system.fusion.R;
+import technical.test.system.fusion.Registration.Register;
 import technical.test.system.fusion.about_us;
 import technical.test.system.fusion.schedule;
 import technical.test.system.fusion.tabtest;
@@ -100,15 +102,16 @@ public class MainActivity extends AppCompatActivity
             Intent intent = new Intent(this,schedule.class);
             startActivity(intent);
         }
-        if(id == R.id.aboutFusion)
+        if(id == R.id.reg)
         {
-            Intent intent = new Intent(this,About_fusion.class);
+            Intent intent = new Intent(this,Register.class);
             startActivity(intent);
         }
         if (id == R.id.member) {
             Toast.makeText(this, "Coming Soon", Toast.LENGTH_SHORT).show();
         } else if (id == R.id.develop) {
-            Toast.makeText(this, "Coming Soon", Toast.LENGTH_SHORT).show();
+        Intent intent = new Intent(this, Developed.class);
+            startActivity(intent);
         } else if (id == R.id.about_us) {
            Intent intent = new Intent(this,about_us.class);
             startActivity(intent);

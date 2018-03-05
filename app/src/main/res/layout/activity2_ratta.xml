@@ -96,6 +96,19 @@
                     </LinearLayout>
 
                 </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_margin="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <Button
+                        android:background="@color/blue"
+                        android:text="Register Now"
+                        android:textSize="25dp"
+                        android:onClick="register"
+                        android:layout_gravity="top"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp" />
+                </android.support.v7.widget.CardView>
 
             </LinearLayout>
         </ScrollView>
