@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -54,7 +55,20 @@
                 android:text="\t\t\tPVPPCOE is an Engineering College in Maharastra,Mumbai - established in 1991, the foundation for which was laid under the able leadership of Yashwantrao Chavan, is affiliated to University of Mumbai. The college is approved by the Government of Maharashtra, Directorate of Technical education (DTE) and All India Council for Technical Education (AICTE). The college conducts Degree courses leading to B.E. Degree in the disciplines of Engineering Courses in Electronic, Computers, Electronic and Telecommunication and Information Technology which are accredited by the National Board of Accreditation (NBA).\n\n\t\tOur college also has various students associations namely Computer Engineering Student Association (CESA), Electronics Engineering Student Association (EESA), Electronics Telecommunication Engineering Student Association (ETSA),InformationTechnology Student Association (ITSA) and First Year Engineering Student Association (FESA). There are various professional bodies like Institute of Electrical and Electronics Engineers, USA (IEEE), Institute of Electronics and Telecommunication Engineers (IETE), Indian Society for Technical Education (ISTE), IE (I) i.e. Institute of Engineers (India), Computer Society of India (CSI) to organize the Techno Culture events."
                 />
         </android.support.v7.widget.CardView>
+            <com.google.android.gms.ads.AdView
+                android:id="@+id/adView_about_us"
+                android:layout_margin="2dp"
+                android:layout_below="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                ads:adSize="BANNER"
+                ads:adUnitId="@string/banner_ad_unit_id">
+            </com.google.android.gms.ads.AdView>
         </RelativeLayout>
+
+
     </ScrollView>
 
 </LinearLayout>
