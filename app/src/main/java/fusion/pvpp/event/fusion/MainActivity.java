@@ -121,14 +121,14 @@ public class MainActivity extends AppCompatActivity
         else if (id == R.id.shareOption) {
             Intent sendIntent = new Intent();
             sendIntent.setAction(Intent.ACTION_SEND);
-            sendIntent.putExtra(Intent.EXTRA_TEXT, "https://play.google.com/store/apps/details?id=Fusion.pvpp.event.fusion");
+            sendIntent.putExtra(Intent.EXTRA_TEXT, "https://play.google.com/store/apps/details?id=fusion.pvpp.event.fusion");
 
             sendIntent.setType("text/plain");
             startActivity(sendIntent);
 
         }
         else if (id == R.id.nav_update) {
-            Uri uri = Uri.parse("market://details?id=Fusion.pvpp.event.fusion");
+            Uri uri = Uri.parse("market://details?id=fusion.pvpp.event.fusion");
             Intent goToMarket = new Intent(Intent.ACTION_VIEW, uri);
 
             // After pressing back button from google play will continue to app
