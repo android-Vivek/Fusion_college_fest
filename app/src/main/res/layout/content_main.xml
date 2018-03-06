@@ -9,7 +9,7 @@
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:showIn="@layout/app_bar_main"
-    tools:context="Fusion.pvpp.event.fusion.MainActivity">
+    tools:context="fusion.pvpp.event.fusion.MainActivity">
 
     <ScrollView
         android:layout_width="fill_parent"

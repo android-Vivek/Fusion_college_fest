@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="Fusion.pvpp.event.fusion">
+    package="fusion.pvpp.event.fusion">
 
 
     <uses-permission android:name="android.permission.INTERNET" />
@@ -16,11 +16,11 @@
         android:theme="@style/AppTheme">
 
         <activity
-            android:name="Fusion.pvpp.event.fusion.MainActivity"
+            android:name="fusion.pvpp.event.fusion.MainActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="Fusion.pvpp.event.fusion.splashScreen.Splash"
+            android:name="fusion.pvpp.event.fusion.splashScreen.Splash"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
             <intent-filter>
@@ -29,59 +29,59 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="Fusion.pvpp.event.fusion.schedule" />
-        <activity android:name="Fusion.pvpp.event.fusion.About_fusion" />
-        <activity android:name="Fusion.pvpp.event.fusion.about_us" />
+        <activity android:name="fusion.pvpp.event.fusion.schedule" />
+        <activity android:name="fusion.pvpp.event.fusion.About_fusion" />
+        <activity android:name="fusion.pvpp.event.fusion.about_us" />
         <activity
-            android:name="Fusion.pvpp.event.fusion.tabtest"
+            android:name="fusion.pvpp.event.fusion.tabtest"
             android:label="@string/title_activity_tabtest"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.NoActionBar" />
-        <activity android:name="Fusion.pvpp.event.fusion.FeedbackActivity" />
-        <activity android:name="Fusion.pvpp.event.fusion.Tpp" />
-        <activity android:name="Fusion.pvpp.event.fusion.webby" />
-        <activity android:name="Fusion.pvpp.event.fusion.Codex" />
-        <activity android:name="Fusion.pvpp.event.fusion.Treasure" />
-        <activity android:name="Fusion.pvpp.event.fusion.Ad_mania" />
-        <activity android:name="Fusion.pvpp.event.fusion.Techno" />
-        <activity android:name="Fusion.pvpp.event.fusion.Textit" />
-        <activity android:name="Fusion.pvpp.event.fusion.Dreamjob" />
-        <activity android:name="Fusion.pvpp.event.fusion.MockP" />
-        <activity android:name="Fusion.pvpp.event.fusion.Circuitrix" />
-        <activity android:name="Fusion.pvpp.event.fusion.Maiboli" />
-        <activity android:name="Fusion.pvpp.event.fusion.Mozart" />
-        <activity android:name="Fusion.pvpp.event.fusion.Antakshari" />
-        <activity android:name="Fusion.pvpp.event.fusion.Rap" />
-        <activity android:name="Fusion.pvpp.event.fusion.Rock" />
-        <activity android:name="Fusion.pvpp.event.fusion.Dance" />
-        <activity android:name="Fusion.pvpp.event.fusion.Shortcut" />
-        <activity android:name="Fusion.pvpp.event.fusion.Dramebaaz" />
-        <activity android:name="Fusion.pvpp.event.fusion.MrMrs" />
-        <activity android:name="Fusion.pvpp.event.fusion.Hargali" />
-        <activity android:name="Fusion.pvpp.event.fusion.Sketch" />
-        <activity android:name="Fusion.pvpp.event.fusion.Rubix" />
-        <activity android:name="Fusion.pvpp.event.fusion.Boxcric" />
-        <activity android:name="Fusion.pvpp.event.fusion.Rink" />
-        <activity android:name="Fusion.pvpp.event.fusion.Rangoli" />
-        <activity android:name="Fusion.pvpp.event.fusion.Bakasur" />
-        <activity android:name="Fusion.pvpp.event.fusion.Sixty" />
-        <activity android:name="Fusion.pvpp.event.fusion.Bathroom" />
-        <activity android:name="Fusion.pvpp.event.fusion.PicHunt" />
-        <activity android:name="Fusion.pvpp.event.fusion.Lazer" />
-        <activity android:name="Fusion.pvpp.event.fusion.Striker" />
-        <activity android:name="Fusion.pvpp.event.fusion.Beg" />
-        <activity android:name="Fusion.pvpp.event.fusion.Apahran" />
-        <activity android:name="Fusion.pvpp.event.fusion.Masterchef" />
-        <activity android:name="Fusion.pvpp.event.fusion.Langame" />
-        <activity android:name="Fusion.pvpp.event.fusion.trip" />
-        <activity android:name="Fusion.pvpp.event.fusion.tshirt" />
-        <activity android:name="Fusion.pvpp.event.fusion.pullpush" />
-        <activity android:name="Fusion.pvpp.event.fusion.sketchlyrics" />
-        <activity android:name="Fusion.pvpp.event.fusion.chess" />
-        <activity android:name="Fusion.pvpp.event.fusion.table" />
-        <activity android:name="Fusion.pvpp.event.fusion.Ratta" />
-        <activity android:name="Fusion.pvpp.event.fusion.Registration.Register"></activity>
-        <activity android:name="Fusion.pvpp.event.fusion.Developed"/>
+        <activity android:name="fusion.pvpp.event.fusion.FeedbackActivity" />
+        <activity android:name="fusion.pvpp.event.fusion.Tpp" />
+        <activity android:name="fusion.pvpp.event.fusion.webby" />
+        <activity android:name="fusion.pvpp.event.fusion.Codex" />
+        <activity android:name="fusion.pvpp.event.fusion.Treasure" />
+        <activity android:name="fusion.pvpp.event.fusion.Ad_mania" />
+        <activity android:name="fusion.pvpp.event.fusion.Techno" />
+        <activity android:name="fusion.pvpp.event.fusion.Textit" />
+        <activity android:name="fusion.pvpp.event.fusion.Dreamjob" />
+        <activity android:name="fusion.pvpp.event.fusion.MockP" />
+        <activity android:name="fusion.pvpp.event.fusion.Circuitrix" />
+        <activity android:name="fusion.pvpp.event.fusion.Maiboli" />
+        <activity android:name="fusion.pvpp.event.fusion.Mozart" />
+        <activity android:name="fusion.pvpp.event.fusion.Antakshari" />
+        <activity android:name="fusion.pvpp.event.fusion.Rap" />
+        <activity android:name="fusion.pvpp.event.fusion.Rock" />
+        <activity android:name="fusion.pvpp.event.fusion.Dance" />
+        <activity android:name="fusion.pvpp.event.fusion.Shortcut" />
+        <activity android:name="fusion.pvpp.event.fusion.Dramebaaz" />
+        <activity android:name="fusion.pvpp.event.fusion.MrMrs" />
+        <activity android:name="fusion.pvpp.event.fusion.Hargali" />
+        <activity android:name="fusion.pvpp.event.fusion.Sketch" />
+        <activity android:name="fusion.pvpp.event.fusion.Rubix" />
+        <activity android:name="fusion.pvpp.event.fusion.Boxcric" />
+        <activity android:name="fusion.pvpp.event.fusion.Rink" />
+        <activity android:name="fusion.pvpp.event.fusion.Rangoli" />
+        <activity android:name="fusion.pvpp.event.fusion.Bakasur" />
+        <activity android:name="fusion.pvpp.event.fusion.Sixty" />
+        <activity android:name="fusion.pvpp.event.fusion.Bathroom" />
+        <activity android:name="fusion.pvpp.event.fusion.PicHunt" />
+        <activity android:name="fusion.pvpp.event.fusion.Lazer" />
+        <activity android:name="fusion.pvpp.event.fusion.Striker" />
+        <activity android:name="fusion.pvpp.event.fusion.Beg" />
+        <activity android:name="fusion.pvpp.event.fusion.Apahran" />
+        <activity android:name="fusion.pvpp.event.fusion.Masterchef" />
+        <activity android:name="fusion.pvpp.event.fusion.Langame" />
+        <activity android:name="fusion.pvpp.event.fusion.trip" />
+        <activity android:name="fusion.pvpp.event.fusion.tshirt" />
+        <activity android:name="fusion.pvpp.event.fusion.pullpush" />
+        <activity android:name="fusion.pvpp.event.fusion.sketchlyrics" />
+        <activity android:name="fusion.pvpp.event.fusion.chess" />
+        <activity android:name="fusion.pvpp.event.fusion.table" />
+        <activity android:name="fusion.pvpp.event.fusion.Ratta" />
+        <activity android:name="fusion.pvpp.event.fusion.Registration.Register"></activity>
+        <activity android:name="fusion.pvpp.event.fusion.Developed"/>
     </application>
 
 </manifest>

@@ -54,7 +54,7 @@
                         android:layout_height="wrap_content"
                         android:padding="10dp"
                         android:textSize="17dp"
-                        android:text="\t\t\t\t\tAn act is played by PVPP Student's"/>
+                        android:text="\t\t\t\t\tAction will remove the doubt that theory can't solve. #SayItWithDrama "/>
                 </android.support.v7.widget.CardView>
                 <android.support.v7.widget.CardView
                     app:cardElevation="5dp"
@@ -81,7 +81,7 @@
                             android:autoLink="phone"
                             android:textColor="@color/white"
                             android:textSize="15dp"
-                            android:text="@string/Drame"/>
+                            android:text="Aafrin Shaikh 8976746720"/>
 
                     </LinearLayout>
 
