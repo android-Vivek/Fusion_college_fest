@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout  xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:background="#262626"
     android:layout_width="match_parent"
@@ -53,7 +54,7 @@
                         android:padding="10dp"
                         android:textColor="@color/white"
                         android:textSize="17dp"
-                        android:text="\t\t\t\t\t\t\t\t\t\tEntry Fees Rs.750\-\n  \t\t\t\t\t\t\t10 to 12 members per team\n \t\t\t\t\t\tBring properties on your own\n\nPrice Money:1st price upto 1500\-\n\t\t\t\t\t\t\t\t\t\t2nd price upto 1000\-\n\t\t\t\t\t\t\t\t\t\t3rd price upto 350\-"/>
+                        android:text="\t\t\t\t\t\t\t\t\t\tEntry Fees Rs.500\-\n \t\t\t\t\t\tA stage where we speak out the unspoken truth: STREET PLAY Time limit 15min  No use of mics and makeup\nPrice Money:1st price upto 2000\-"/>
                 </android.support.v7.widget.CardView>
                 <android.support.v7.widget.CardView
                     app:cardElevation="5dp"
@@ -97,7 +98,15 @@
                         android:layout_width="match_parent"
                         android:layout_height="50dp" />
                 </android.support.v7.widget.CardView>
-
+                <com.google.android.gms.ads.AdView
+                    android:id="@+id/adViewhar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignParentBottom="true"
+                    ads:adSize="BANNER"
+                    ads:adUnitId="@string/banner_ad_unit_id">
+                </com.google.android.gms.ads.AdView>
             </LinearLayout>
         </ScrollView>
 

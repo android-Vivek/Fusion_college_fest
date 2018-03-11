@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Fusion</string>
+    <string name="app_name">Fusion 2K18</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
@@ -25,12 +25,13 @@
     <string name="Ad">Tango  9898989898 \nCharli   9898989898</string>
     <string name="Circuit">Abhishek vangari 9773120799 \nChandrakant kushwaha 766813152</string>
     <string name="mock">Tango  9898989898 \nCharli   9898989898</string>
-    <string name="Ant">Tango  9898989898 \nCharli   9898989898</string>
-    <string name="Dance">Tango  9898989898 \nCharli   9898989898</string>
-    <string name="Mai">Tango  9898989898 \nCharli   9898989898</string>
+    <string name="Ant">Asawari 8879538817</string>
+    <string name="Dance">Priya Shukla 8698994400</string>
+    <string name="Mai">Sneha Waghmare 9773337386</string>
     <string name="Drame">Tango  9898989898 \nCharli   9898989898</string>
-    <string name="Har">Tango  9898989898 \nCharli   9898989898</string>
-    <string name="Mr">Tango  9898989898 \nCharli   9898989898</string>
-    <string name="langame">Manish sonawane 9702039552\n Pratik adsule-7666444692</string>
-
+    <string name="Har">Prajakta malusare 7045152045\npooja silmula 9702960709</string>
+    <string name="Mr">Amit sawant 9768860835\nPratiksha patil 8097884521</string>
+    <string name="langame">SAGAR KAKDE 8879844035\n ARUN PANDEY 9004081448</string>
+    <string name="banner_ad_unit_id">ca-app-pub-2609666985136692/5223817775</string>
+    //ca-app-pub-3940256099942544/6300978111 test key
 </resources>
