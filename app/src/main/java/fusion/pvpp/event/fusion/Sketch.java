@@ -7,6 +7,7 @@ import android.view.View;
 
 import fusion.pvpp.event.fusion.Registration.Register;
 
+import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 public class Sketch extends AppCompatActivity {
     private AdView mAdView;
@@ -14,9 +15,9 @@ public class Sketch extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity2_sketch);
-//        mAdView = (AdView) findViewById(R.id.adViewSketch);
-//        AdRequest adRequest = new AdRequest.Builder().build();
-//        mAdView.loadAd(adRequest);
+        mAdView = (AdView) findViewById(R.id.adViewSketch);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        mAdView.loadAd(adRequest);
     }
     public void register(View view)
     {

@@ -82,6 +82,7 @@
         <activity android:name="fusion.pvpp.event.fusion.Ratta" />
         <activity android:name="fusion.pvpp.event.fusion.Registration.Register"></activity>
         <activity android:name="fusion.pvpp.event.fusion.Developed"/>
+        <activity android:name=".coreMember"/>
     </application>
 
 </manifest>

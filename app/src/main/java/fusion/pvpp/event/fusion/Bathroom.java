@@ -7,6 +7,7 @@ import android.view.View;
 
 import fusion.pvpp.event.fusion.Registration.Register;
 
+import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 public class Bathroom extends AppCompatActivity {
     private AdView mAdView;
@@ -14,9 +15,9 @@ public class Bathroom extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity2_bathroom);
-//        mAdView = (AdView) findViewById(R.id.adView_bath);
-//        AdRequest adRequest = new AdRequest.Builder().build();
-//        mAdView.loadAd(adRequest);
+        mAdView = (AdView) findViewById(R.id.adView_bath);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        mAdView.loadAd(adRequest);
     }
     public void register(View view)
     {

@@ -7,6 +7,7 @@ import android.view.View;
 
 import fusion.pvpp.event.fusion.Registration.Register;
 
+import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 public class Codex extends AppCompatActivity {
     private AdView mAdView;
@@ -15,9 +16,9 @@ public class Codex extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_codex);
 
-//        mAdView = (AdView) findViewById(R.id.adView_code);
-//        AdRequest adRequest = new AdRequest.Builder().build();
-//        mAdView.loadAd(adRequest);
+        mAdView = (AdView) findViewById(R.id.adView_code);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        mAdView.loadAd(adRequest);
     }
     public void register(View view)
     {

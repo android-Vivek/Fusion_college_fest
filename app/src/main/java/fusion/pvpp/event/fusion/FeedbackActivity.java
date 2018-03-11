@@ -25,7 +25,7 @@ public class FeedbackActivity extends AppCompatActivity implements View.OnClickL
     String emailMessege;
     private static final String TAG = "MainActivity";
 
-    private AdView mAdView1;
+    private AdView mAdView;
     NativeExpressAdView mAdViewNative;
 
     private static String LOG_TAG = "EXAMPLE";
@@ -41,9 +41,9 @@ public class FeedbackActivity extends AppCompatActivity implements View.OnClickL
         btn_feedback = (Button) findViewById(R.id.btn_feedback);
         btn_feedback.setOnClickListener(this);
 
-        mAdView1 = (AdView) findViewById(R.id.adView1);
+        mAdView = (AdView) findViewById(R.id.adViewfeedback);
         AdRequest adRequest = new AdRequest.Builder().build();
-        mAdView1.loadAd(adRequest);
+        mAdView.loadAd(adRequest);
 
 
         mAdViewNative = (NativeExpressAdView) findViewById(R.id.adViewnative);

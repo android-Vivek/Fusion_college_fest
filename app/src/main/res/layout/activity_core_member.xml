@@ -1,0 +1,1195 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/con"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            >
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="3dp"
+                        android:padding="6dip"
+                        android:layout_height="match_parent">
+                        <android.support.v7.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            >
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:orientation="vertical"
+                                android:layout_height="wrap_content">
+                                <ImageView
+                                    android:layout_height="170dp"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/ashamam"
+                                    android:layout_width="fill_parent"
+                                    />
+
+                                <TextView
+                                    android:id="@+id/textView14"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="bottom"
+                                    android:padding="8dp"
+                                    android:text="Prof. Asha rawat\n(CONVENOR)"
+                                    android:textAlignment="center"
+                                    android:textColor="#333"
+                                    android:textSize="15dp"
+                                    android:textStyle="bold" />
+
+                            </LinearLayout>
+
+                        </android.support.v7.widget.CardView>
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="3dp"
+                        android:padding="6dip"
+                        android:layout_height="match_parent">
+                        <android.support.v7.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            >
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:orientation="vertical"
+                                android:layout_height="wrap_content">
+                                <ImageView
+                                    android:layout_height="170dp"
+                                    android:scaleType="centerCrop"
+                                    android:padding="4dp"
+                                    android:src="@drawable/suvaranmam"
+                                    android:layout_width="fill_parent"
+                                    />
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:padding="8dp"
+                                    android:text="Prof. Suvarna Bhise\n(CONVENOR)"
+                                    android:textAlignment="center"
+                                    android:textColor="#333"
+                                    android:textSize="15dp"
+                                    android:textStyle="bold"
+                                    />
+
+                            </LinearLayout>
+
+                        </android.support.v7.widget.CardView>
+
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="3dp"
+                        android:padding="6dip"
+                        android:layout_height="match_parent">
+                        <android.support.v7.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            >
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:orientation="vertical"
+                                android:layout_height="wrap_content">
+
+                                <ImageView
+                                    android:id="@+id/imageView3"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="170dp"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/gs" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:id="@+id/txt1"
+                                    android:padding="8dp"
+                                    android:text="Debarshi pal\n(GENERAL SECRETARY)"
+                                    android:textAlignment="center"
+                                    android:textColor="#333"
+                                    android:textSize="15dp"
+                                    android:textStyle="bold"
+                                    />
+
+                            </LinearLayout>
+
+                        </android.support.v7.widget.CardView>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="3dp"
+                        android:padding="6dip"
+                        android:layout_height="match_parent">
+                        <android.support.v7.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            >
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:orientation="vertical"
+                                android:layout_height="wrap_content">
+
+                                <ImageView
+                                    android:id="@+id/imageView4"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="170dp"
+                                    android:padding="4dp"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/chairman" />
+
+                                <TextView
+                                    android:id="@+id/textView15"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="bottom"
+                                    android:padding="8dp"
+                                    android:text="Shankar Sahu\n(Chairman)"
+                                    android:textAlignment="center"
+                                    android:textColor="#333"
+                                    android:textSize="15dp"
+                                    android:textStyle="bold"
+                                    />
+
+                            </LinearLayout>
+
+                        </android.support.v7.widget.CardView>
+
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="3dp"
+                        android:padding="6dip"
+                        android:layout_height="match_parent">
+                        <android.support.v7.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            >
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:orientation="vertical"
+                                android:layout_height="wrap_content">
+
+                                <ImageView
+                                    android:id="@+id/imageView5"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="170dp"
+                                    android:padding="4dp"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/sc" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:padding="8dp"
+                                    android:text="Satyanarayan Sahu\n(SECRETARY)"
+                                    android:textAlignment="center"
+                                    android:textColor="#333"
+                                    android:textSize="15dp"
+                                    android:textStyle="bold"
+                                    />
+
+                            </LinearLayout>
+
+                        </android.support.v7.widget.CardView>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="3dp"
+                        android:padding="6dip"
+                        android:layout_height="match_parent">
+                        <android.support.v7.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            >
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:orientation="vertical"
+                                android:layout_height="wrap_content">
+                                <ImageView
+                                    android:layout_height="170dp"
+                                    android:scaleType="centerCrop"
+                                    android:padding="4dp"
+                                    android:src="@drawable/cs"
+                                    android:layout_width="fill_parent"
+                                    />
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:padding="8dp"
+                                    android:text="Devesh Sawant\n(CULTURAL SECRETARY)"
+                                    android:textAlignment="center"
+                                    android:textColor="#333"
+                                    android:textSize="15dp"
+                                    android:textStyle="bold"
+                                    />
+
+                            </LinearLayout>
+
+                        </android.support.v7.widget.CardView>
+
+                    </LinearLayout>
+                </LinearLayout>
+                <com.google.android.gms.ads.AdView
+                    android:id="@+id/adView_core"
+                    android:layout_margin="2dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignParentBottom="true"
+                    ads:adSize="BANNER"
+                    ads:adUnitId="@string/banner_ad_unit_id">
+                </com.google.android.gms.ads.AdView>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="3dp"
+                        android:padding="6dip"
+                        android:layout_height="match_parent">
+                        <android.support.v7.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            >
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:orientation="vertical"
+                                android:layout_height="wrap_content">
+                                <ImageView
+                                    android:layout_height="170dp"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/cs1"
+                                    android:padding="4dp"
+                                    android:layout_width="fill_parent"
+                                    />
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:padding="8dp"
+                                    android:text="Vama Chouhan\n(CULTURAL SECRETARY)"
+                                    android:textAlignment="center"
+                                    android:textColor="#333"
+                                    android:textSize="15dp"
+                                    android:textStyle="bold"
+                                    />
+
+                            </LinearLayout>
+
+                        </android.support.v7.widget.CardView>
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="3dp"
+                        android:padding="6dip"
+                        android:layout_height="match_parent">
+                        <android.support.v7.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            >
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:orientation="vertical"
+                                android:layout_height="wrap_content">
+                                <ImageView
+                                    android:layout_height="170dp"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/sc1"
+                                    android:padding="4dp"
+                                    android:layout_width="fill_parent"
+                                    />
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:padding="8dp"
+                                    android:text="Seema Singh\n(SPORTS SECRETARY)"
+                                    android:textAlignment="center"
+                                    android:textColor="#333"
+                                    android:textSize="15dp"
+                                    android:textStyle="bold"
+                                    />
+
+                            </LinearLayout>
+
+                        </android.support.v7.widget.CardView>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="3dp"
+                        android:padding="6dip"
+                        android:layout_height="match_parent">
+                        <android.support.v7.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            >
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:orientation="vertical"
+                                android:layout_height="wrap_content">
+                                <ImageView
+                                    android:layout_height="170dp"
+                                    android:scaleType="fitXY"
+                                    android:src="@drawable/spc"
+                                    android:padding="4dp"
+                                    android:layout_width="fill_parent"
+                                    />
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:padding="8dp"
+                                    android:text="Asad Shaikh \n(SPORTS SECRETARY)"
+                                    android:textAlignment="center"
+                                    android:textColor="#333"
+                                    android:textSize="15dp"
+                                    android:textStyle="bold"
+                                    />
+
+                            </LinearLayout>
+
+                        </android.support.v7.widget.CardView>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="3dp"
+                        android:padding="6dip"
+                        android:layout_height="match_parent">
+                        <android.support.v7.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            >
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:orientation="vertical"
+                                android:layout_height="wrap_content">
+                                <ImageView
+                                    android:layout_height="170dp"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/cs2"
+                                    android:layout_width="fill_parent"
+                                    android:padding="4dp"
+                                    />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:padding="8dp"
+                                    android:text="Sitaram Shetkar\n(SPORTS SECRETARY)"
+                                    android:textAlignment="center"
+                                    android:textColor="#333"
+                                    android:textSize="15dp"
+                                    android:textStyle="bold" />
+
+                            </LinearLayout>
+
+                        </android.support.v7.widget.CardView>
+
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="3dp"
+                        android:padding="6dip"
+                        android:layout_height="match_parent">
+                        <android.support.v7.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            >
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:orientation="vertical"
+                                android:layout_height="wrap_content">
+                                <ImageView
+                                    android:layout_height="170dp"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/cr"
+                                    android:layout_width="fill_parent"
+                                    />
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:padding="8dp"
+                                    android:text="Souvik Dinda\n(CREATIVITY HEAD)"
+                                    android:textAlignment="center"
+                                    android:textColor="#333"
+                                    android:textSize="15dp"
+                                    android:textStyle="bold"  />
+
+                            </LinearLayout>
+
+                        </android.support.v7.widget.CardView>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="3dp"
+                        android:padding="6dip"
+                        android:layout_height="match_parent">
+                        <android.support.v7.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            >
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:orientation="vertical"
+                                android:layout_height="wrap_content">
+                                <ImageView
+                                    android:layout_height="170dp"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/cr1"
+                                    android:padding="4dp"
+                                    android:layout_width="fill_parent"
+                                    />
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:padding="8dp"
+                                    android:text="Kailash Fulwaria\n(CREATIVITY HEAD)"
+                                    android:textAlignment="center"
+                                    android:textColor="#333"
+                                    android:textSize="15dp"
+                                    android:textStyle="bold"   />
+
+                            </LinearLayout>
+
+                        </android.support.v7.widget.CardView>
+
+                    </LinearLayout>
+                </LinearLayout>
+                <com.google.android.gms.ads.AdView
+                    android:id="@+id/adView_core1"
+                    android:layout_margin="2dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignParentBottom="true"
+                    ads:adSize="BANNER"
+                    ads:adUnitId="@string/banner_ad_unit_id">
+                </com.google.android.gms.ads.AdView>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="3dp"
+                        android:padding="6dip"
+                        android:layout_height="match_parent">
+                        <android.support.v7.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            >
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:orientation="vertical"
+                                android:layout_height="wrap_content">
+                                <ImageView
+                                    android:layout_height="170dp"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/cr2"
+                                    android:padding="4dp"
+                                    android:layout_width="fill_parent"
+                                    />
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:padding="8dp"
+                                    android:text="Pramod Patil(CREATIVITY HEAD)"
+                                    android:textAlignment="center"
+                                    android:textColor="#333"
+                                    android:textSize="15dp"
+                                    android:textStyle="bold"
+                                    />
+
+                            </LinearLayout>
+
+                        </android.support.v7.widget.CardView>
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="3dp"
+                        android:padding="6dip"
+                        android:layout_height="match_parent">
+                        <android.support.v7.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            >
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:orientation="vertical"
+                                android:layout_height="wrap_content">
+                                <ImageView
+                                    android:layout_height="170dp"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/tr"
+                                    android:padding="4dp"
+                                    android:layout_width="fill_parent"
+                                    />
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:padding="8dp"
+                                    android:text="Shrilata Barthala(TREASURER)"
+                                    android:textAlignment="center"
+                                    android:textColor="#333"
+                                    android:textSize="15dp"
+                                    android:textStyle="bold"
+                                    />
+
+                            </LinearLayout>
+
+                        </android.support.v7.widget.CardView>
+
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="3dp"
+                        android:padding="6dip"
+                        android:layout_height="match_parent">
+                        <android.support.v7.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            >
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:orientation="vertical"
+                                android:layout_height="wrap_content">
+                                <ImageView
+                                    android:layout_height="170dp"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/publi"
+                                    android:layout_width="fill_parent"
+                                    />
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:padding="8dp"
+                                    android:text="Prajakta Malusare\n(PUBLIC RELATIONS OFFICER)"
+                                    android:textAlignment="center"
+                                    android:textColor="#333"
+                                    android:textSize="15dp"
+                                    android:textStyle="bold"
+                                    />
+
+                            </LinearLayout>
+
+                        </android.support.v7.widget.CardView>
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="3dp"
+                        android:padding="6dip"
+                        android:layout_height="match_parent">
+                        <android.support.v7.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            >
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:orientation="vertical"
+                                android:layout_height="wrap_content">
+                                <ImageView
+                                    android:layout_height="170dp"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/public1"
+                                    android:layout_width="fill_parent"
+                                    />
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:padding="8dp"
+                                    android:text="Neha parab\n(PUBLIC RELATIONS OFFICER)"
+                                    android:textAlignment="center"
+                                    android:textColor="#333"
+                                    android:textSize="15dp"
+                                    android:textStyle="bold"
+                                    />
+
+                            </LinearLayout>
+
+                        </android.support.v7.widget.CardView>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <com.google.android.gms.ads.AdView
+                    android:id="@+id/adView_core2"
+                    android:layout_margin="2dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignParentBottom="true"
+                    ads:adSize="BANNER"
+                    ads:adUnitId="@string/banner_ad_unit_id">
+                </com.google.android.gms.ads.AdView>
+                <!--<LinearLayout-->
+                    <!--android:orientation="horizontal"-->
+                    <!--android:layout_width="fill_parent"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:layout_height="wrap_content">-->
+                    <!--<LinearLayout-->
+                        <!--android:orientation="vertical"-->
+                        <!--android:layout_width="0dp"-->
+                        <!--android:layout_weight="1"-->
+                        <!--android:layout_marginLeft="3dp"-->
+                        <!--android:padding="6dip"-->
+                        <!--android:layout_height="match_parent">-->
+                        <!--<android.support.v7.widget.CardView-->
+                            <!--android:layout_width="match_parent"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--&gt;-->
+                            <!--<LinearLayout-->
+                                <!--android:layout_width="match_parent"-->
+                                <!--android:orientation="vertical"-->
+                                <!--android:layout_height="wrap_content">-->
+                                <!--<ImageView-->
+                                    <!--android:layout_height="170dp"-->
+                                    <!--android:scaleType="centerCrop"-->
+                                    <!--android:src="@drawable/sid"-->
+                                    <!--android:layout_width="fill_parent"-->
+                                    <!--/>-->
+                                <!--<TextView-->
+                                    <!--android:layout_width="match_parent"-->
+                                    <!--android:layout_height="wrap_content"-->
+                                    <!--android:padding="8dp"-->
+                                    <!--android:background="#1a1a1a"-->
+                                    <!--android:text="SIDDHI KHADPE (CREATIVITY HEAD)"-->
+                                    <!--android:layout_gravity="bottom"-->
+                                    <!--android:textSize="15dp"-->
+                                    <!--/>-->
+
+                            <!--</LinearLayout>-->
+
+                        <!--</android.support.v7.widget.CardView>-->
+
+                    <!--</LinearLayout>-->
+
+
+                    <!--<LinearLayout-->
+                        <!--android:orientation="vertical"-->
+                        <!--android:layout_width="0dp"-->
+                        <!--android:layout_weight="1"-->
+                        <!--android:layout_marginLeft="3dp"-->
+                        <!--android:padding="6dip"-->
+                        <!--android:layout_height="match_parent">-->
+                        <!--<android.support.v7.widget.CardView-->
+                            <!--android:layout_width="match_parent"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--&gt;-->
+                            <!--<LinearLayout-->
+                                <!--android:layout_width="match_parent"-->
+                                <!--android:orientation="vertical"-->
+                                <!--android:layout_height="wrap_content">-->
+                                <!--<ImageView-->
+                                    <!--android:layout_height="170dp"-->
+                                    <!--android:scaleType="centerCrop"-->
+                                    <!--android:src="@drawable/sayali"-->
+                                    <!--android:layout_width="fill_parent"-->
+                                    <!--/>-->
+                                <!--<TextView-->
+                                    <!--android:layout_width="match_parent"-->
+                                    <!--android:layout_height="wrap_content"-->
+                                    <!--android:padding="8dp"-->
+                                    <!--android:background="#1a1a1a"-->
+                                    <!--android:text="SAYALI CHAUDHARY (CREATIVITY HEAD)"-->
+                                    <!--android:layout_gravity="bottom"-->
+                                    <!--android:textSize="15dp"-->
+                                    <!--/>-->
+
+                            <!--</LinearLayout>-->
+
+                        <!--</android.support.v7.widget.CardView>-->
+
+                    <!--</LinearLayout>-->
+                <!--</LinearLayout>-->
+                <!--<LinearLayout-->
+                    <!--android:orientation="horizontal"-->
+                    <!--android:layout_width="fill_parent"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:layout_height="wrap_content">-->
+                    <!--<LinearLayout-->
+                        <!--android:orientation="vertical"-->
+                        <!--android:layout_width="0dp"-->
+                        <!--android:layout_weight="1"-->
+                        <!--android:layout_marginLeft="3dp"-->
+                        <!--android:padding="6dip"-->
+                        <!--android:layout_height="match_parent">-->
+                        <!--<android.support.v7.widget.CardView-->
+                            <!--android:layout_width="match_parent"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--&gt;-->
+                            <!--<LinearLayout-->
+                                <!--android:layout_width="match_parent"-->
+                                <!--android:orientation="vertical"-->
+                                <!--android:layout_height="wrap_content">-->
+                                <!--<ImageView-->
+                                    <!--android:layout_height="170dp"-->
+                                    <!--android:scaleType="centerCrop"-->
+                                    <!--android:src="@drawable/atul"-->
+                                    <!--android:layout_width="fill_parent"-->
+                                    <!--/>-->
+                                <!--<TextView-->
+                                    <!--android:layout_width="match_parent"-->
+                                    <!--android:layout_height="wrap_content"-->
+                                    <!--android:padding="8dp"-->
+                                    <!--android:background="#1a1a1a"-->
+                                    <!--android:text="ATUL REDEKAR (CREATIVITY HEAD)"-->
+                                    <!--android:layout_gravity="bottom"-->
+                                    <!--android:textSize="15dp"-->
+                                    <!--/>-->
+
+                            <!--</LinearLayout>-->
+
+                        <!--</android.support.v7.widget.CardView>-->
+
+                    <!--</LinearLayout>-->
+
+
+                    <!--<LinearLayout-->
+                        <!--android:orientation="vertical"-->
+                        <!--android:layout_width="0dp"-->
+                        <!--android:layout_weight="1"-->
+                        <!--android:layout_marginLeft="3dp"-->
+                        <!--android:padding="6dip"-->
+                        <!--android:layout_height="match_parent">-->
+                        <!--<android.support.v7.widget.CardView-->
+                            <!--android:layout_width="match_parent"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--&gt;-->
+                            <!--<LinearLayout-->
+                                <!--android:layout_width="match_parent"-->
+                                <!--android:orientation="vertical"-->
+                                <!--android:layout_height="wrap_content">-->
+                                <!--<ImageView-->
+                                    <!--android:layout_height="170dp"-->
+                                    <!--android:scaleType="centerCrop"-->
+                                    <!--android:src="@drawable/omkar"-->
+                                    <!--android:layout_width="fill_parent"-->
+                                    <!--/>-->
+                                <!--<TextView-->
+                                    <!--android:layout_width="match_parent"-->
+                                    <!--android:layout_height="wrap_content"-->
+                                    <!--android:padding="8dp"-->
+                                    <!--android:background="#1a1a1a"-->
+                                    <!--android:text="OMKAR KHEDEKAR (CREATIVITY HEAD)"-->
+                                    <!--android:layout_gravity="bottom"-->
+                                    <!--android:textSize="15dp"-->
+                                    <!--/>-->
+
+                            <!--</LinearLayout>-->
+
+                        <!--</android.support.v7.widget.CardView>-->
+
+                    <!--</LinearLayout>-->
+                <!--</LinearLayout>-->
+                <!--<LinearLayout-->
+                    <!--android:orientation="horizontal"-->
+                    <!--android:layout_width="fill_parent"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:layout_height="wrap_content">-->
+                    <!--<LinearLayout-->
+                        <!--android:orientation="vertical"-->
+                        <!--android:layout_width="0dp"-->
+                        <!--android:layout_weight="1"-->
+                        <!--android:layout_marginLeft="3dp"-->
+                        <!--android:padding="6dip"-->
+                        <!--android:layout_height="match_parent">-->
+                        <!--<android.support.v7.widget.CardView-->
+                            <!--android:layout_width="match_parent"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--&gt;-->
+                            <!--<LinearLayout-->
+                                <!--android:layout_width="match_parent"-->
+                                <!--android:orientation="vertical"-->
+                                <!--android:layout_height="wrap_content">-->
+                                <!--<ImageView-->
+                                    <!--android:layout_height="170dp"-->
+                                    <!--android:scaleType="centerCrop"-->
+                                    <!--android:src="@drawable/apeksha"-->
+                                    <!--android:layout_width="fill_parent"-->
+                                    <!--/>-->
+                                <!--<TextView-->
+                                    <!--android:layout_width="match_parent"-->
+                                    <!--android:layout_height="wrap_content"-->
+                                    <!--android:padding="8dp"-->
+                                    <!--android:background="#1a1a1a"-->
+                                    <!--android:text="APEKSHA MEHER (MAGAZINE HEAD)"-->
+                                    <!--android:layout_gravity="bottom"-->
+                                    <!--android:textSize="15dp"-->
+                                    <!--/>-->
+
+                            <!--</LinearLayout>-->
+
+                        <!--</android.support.v7.widget.CardView>-->
+
+                    <!--</LinearLayout>-->
+
+
+                    <!--<LinearLayout-->
+                        <!--android:orientation="vertical"-->
+                        <!--android:layout_width="0dp"-->
+                        <!--android:layout_weight="1"-->
+                        <!--android:layout_marginLeft="3dp"-->
+                        <!--android:padding="6dip"-->
+                        <!--android:layout_height="match_parent">-->
+                        <!--<android.support.v7.widget.CardView-->
+                            <!--android:layout_width="match_parent"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--&gt;-->
+                            <!--<LinearLayout-->
+                                <!--android:layout_width="match_parent"-->
+                                <!--android:orientation="vertical"-->
+                                <!--android:layout_height="wrap_content">-->
+                                <!--<ImageView-->
+                                    <!--android:layout_height="170dp"-->
+                                    <!--android:scaleType="centerCrop"-->
+                                    <!--android:src="@drawable/seema"-->
+                                    <!--android:layout_width="fill_parent"-->
+                                    <!--/>-->
+                                <!--<TextView-->
+                                    <!--android:layout_width="match_parent"-->
+                                    <!--android:layout_height="wrap_content"-->
+                                    <!--android:padding="8dp"-->
+                                    <!--android:background="#1a1a1a"-->
+                                    <!--android:text="SEEMA SHEKHAWAT (MAGAZINE HEAD)"-->
+                                    <!--android:layout_gravity="bottom"-->
+                                    <!--android:textSize="15dp"-->
+                                    <!--/>-->
+
+                            <!--</LinearLayout>-->
+
+                        <!--</android.support.v7.widget.CardView>-->
+
+                    <!--</LinearLayout>-->
+                <!--</LinearLayout>-->
+                <!--<LinearLayout-->
+                    <!--android:orientation="horizontal"-->
+                    <!--android:layout_width="fill_parent"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:layout_height="wrap_content">-->
+                    <!--<LinearLayout-->
+                        <!--android:orientation="vertical"-->
+                        <!--android:layout_width="0dp"-->
+                        <!--android:layout_weight="1"-->
+                        <!--android:layout_marginLeft="3dp"-->
+                        <!--android:padding="6dip"-->
+                        <!--android:layout_height="match_parent">-->
+                        <!--<android.support.v7.widget.CardView-->
+                            <!--android:layout_width="match_parent"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--&gt;-->
+                            <!--<LinearLayout-->
+                                <!--android:layout_width="match_parent"-->
+                                <!--android:orientation="vertical"-->
+                                <!--android:layout_height="wrap_content">-->
+                                <!--<ImageView-->
+                                    <!--android:layout_height="170dp"-->
+                                    <!--android:scaleType="centerCrop"-->
+                                    <!--android:src="@drawable/kav"-->
+                                    <!--android:layout_width="fill_parent"-->
+                                    <!--/>-->
+                                <!--<TextView-->
+                                    <!--android:layout_width="match_parent"-->
+                                    <!--android:layout_height="wrap_content"-->
+                                    <!--android:padding="8dp"-->
+                                    <!--android:background="#1a1a1a"-->
+                                    <!--android:text="KAVERI KADAM (LADIES REPRESENTATIVE)"-->
+                                    <!--android:layout_gravity="bottom"-->
+                                    <!--android:textSize="15dp"-->
+                                    <!--/>-->
+
+                            <!--</LinearLayout>-->
+
+                        <!--</android.support.v7.widget.CardView>-->
+
+                    <!--</LinearLayout>-->
+
+
+                    <!--<LinearLayout-->
+                        <!--android:orientation="vertical"-->
+                        <!--android:layout_width="0dp"-->
+                        <!--android:layout_weight="1"-->
+                        <!--android:layout_marginLeft="3dp"-->
+                        <!--android:padding="6dip"-->
+                        <!--android:layout_height="match_parent">-->
+                        <!--<android.support.v7.widget.CardView-->
+                            <!--android:layout_width="match_parent"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--&gt;-->
+                            <!--<LinearLayout-->
+                                <!--android:layout_width="match_parent"-->
+                                <!--android:orientation="vertical"-->
+                                <!--android:layout_height="wrap_content">-->
+                                <!--<ImageView-->
+                                    <!--android:layout_height="170dp"-->
+                                    <!--android:scaleType="centerCrop"-->
+                                    <!--android:src="@drawable/ak"-->
+                                    <!--android:layout_width="fill_parent"-->
+                                    <!--/>-->
+                                <!--<TextView-->
+                                    <!--android:layout_width="match_parent"-->
+                                    <!--android:layout_height="wrap_content"-->
+                                    <!--android:padding="8dp"-->
+                                    <!--android:background="#1a1a1a"-->
+                                    <!--android:text="AKANKSHA SHILKAR (LADIES REPRESENTATIVE) "-->
+                                    <!--android:layout_gravity="bottom"-->
+                                    <!--android:textSize="15dp"-->
+                                    <!--/>-->
+
+                            <!--</LinearLayout>-->
+
+                        <!--</android.support.v7.widget.CardView>-->
+
+                    <!--</LinearLayout>-->
+                <!--</LinearLayout>-->
+                <!--<LinearLayout-->
+                    <!--android:orientation="horizontal"-->
+                    <!--android:layout_width="fill_parent"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:layout_height="wrap_content">-->
+                    <!--<LinearLayout-->
+                        <!--android:orientation="vertical"-->
+                        <!--android:layout_width="0dp"-->
+                        <!--android:layout_weight="1"-->
+                        <!--android:layout_marginLeft="3dp"-->
+                        <!--android:padding="6dip"-->
+                        <!--android:layout_height="match_parent">-->
+                        <!--<android.support.v7.widget.CardView-->
+                            <!--android:layout_width="match_parent"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--&gt;-->
+                            <!--<LinearLayout-->
+                                <!--android:layout_width="match_parent"-->
+                                <!--android:orientation="vertical"-->
+                                <!--android:layout_height="wrap_content">-->
+                                <!--<ImageView-->
+                                    <!--android:layout_height="170dp"-->
+                                    <!--android:scaleType="centerCrop"-->
+                                    <!--android:src="@drawable/abhijet"-->
+                                    <!--android:layout_width="fill_parent"-->
+                                    <!--/>-->
+                                <!--<TextView-->
+                                    <!--android:layout_width="match_parent"-->
+                                    <!--android:layout_height="wrap_content"-->
+                                    <!--android:padding="8dp"-->
+                                    <!--android:background="#1a1a1a"-->
+                                    <!--android:text="ABHIJEET SAWANT (FEEDBACK OFFICERS)"-->
+                                    <!--android:layout_gravity="bottom"-->
+                                    <!--android:textSize="15dp"-->
+                                    <!--/>-->
+
+                            <!--</LinearLayout>-->
+
+                        <!--</android.support.v7.widget.CardView>-->
+
+                    <!--</LinearLayout>-->
+
+
+                    <!--<LinearLayout-->
+                        <!--android:orientation="vertical"-->
+                        <!--android:layout_width="0dp"-->
+                        <!--android:layout_weight="1"-->
+                        <!--android:layout_marginLeft="3dp"-->
+                        <!--android:padding="6dip"-->
+                        <!--android:layout_height="match_parent">-->
+                        <!--<android.support.v7.widget.CardView-->
+                            <!--android:layout_width="match_parent"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--&gt;-->
+                            <!--<LinearLayout-->
+                                <!--android:layout_width="match_parent"-->
+                                <!--android:orientation="vertical"-->
+                                <!--android:layout_height="wrap_content">-->
+                                <!--<ImageView-->
+                                    <!--android:layout_height="170dp"-->
+                                    <!--android:scaleType="centerCrop"-->
+                                    <!--android:src="@drawable/pands"-->
+                                    <!--android:layout_width="fill_parent"-->
+                                    <!--/>-->
+                                <!--<TextView-->
+                                    <!--android:layout_width="match_parent"-->
+                                    <!--android:layout_height="wrap_content"-->
+                                    <!--android:padding="8dp"-->
+                                    <!--android:background="#1a1a1a"-->
+                                    <!--android:text="ASHISH PANDEY (FEEDBACK OFFICERS)"-->
+                                    <!--android:layout_gravity="bottom"-->
+                                    <!--android:textSize="15dp"-->
+                                    <!--/>-->
+
+                            <!--</LinearLayout>-->
+
+                        <!--</android.support.v7.widget.CardView>-->
+
+                    <!--</LinearLayout>-->
+                <!--</LinearLayout>-->
+                <!--<LinearLayout-->
+                    <!--android:orientation="horizontal"-->
+                    <!--android:layout_width="fill_parent"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:layout_height="wrap_content">-->
+                    <!--<LinearLayout-->
+                        <!--android:orientation="vertical"-->
+                        <!--android:layout_width="0dp"-->
+                        <!--android:layout_weight="1"-->
+                        <!--android:layout_marginLeft="3dp"-->
+                        <!--android:padding="6dip"-->
+                        <!--android:layout_height="match_parent">-->
+                        <!--<android.support.v7.widget.CardView-->
+                            <!--android:layout_width="match_parent"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--&gt;-->
+                            <!--<LinearLayout-->
+                                <!--android:layout_width="match_parent"-->
+                                <!--android:orientation="vertical"-->
+                                <!--android:layout_height="wrap_content">-->
+                                <!--<ImageView-->
+                                    <!--android:layout_height="170dp"-->
+                                    <!--android:scaleType="centerCrop"-->
+                                    <!--android:src="@drawable/priyanka"-->
+                                    <!--android:layout_width="fill_parent"-->
+                                    <!--/>-->
+                                <!--<TextView-->
+                                    <!--android:layout_width="match_parent"-->
+                                    <!--android:layout_height="wrap_content"-->
+                                    <!--android:padding="8dp"-->
+                                    <!--android:background="#1a1a1a"-->
+                                    <!--android:text="PRIYANKA BHOWAR (NSS HEAD)"-->
+                                    <!--android:layout_gravity="bottom"-->
+                                    <!--android:textSize="15dp"-->
+                                    <!--/>-->
+
+                            <!--</LinearLayout>-->
+
+                        <!--</android.support.v7.widget.CardView>-->
+
+                    <!--</LinearLayout>-->
+
+
+                    <!--<LinearLayout-->
+                        <!--android:orientation="vertical"-->
+                        <!--android:layout_width="0dp"-->
+                        <!--android:layout_weight="1"-->
+                        <!--android:layout_marginLeft="3dp"-->
+                        <!--android:padding="6dip"-->
+                        <!--android:layout_height="match_parent">-->
+                        <!--<android.support.v7.widget.CardView-->
+
+                            <!--android:layout_width="match_parent"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--&gt;-->
+                            <!--<LinearLayout-->
+                                <!--android:layout_width="match_parent"-->
+                                <!--android:orientation="vertical"-->
+                                <!--android:layout_height="wrap_content">-->
+
+
+
+                            <!--</LinearLayout>-->
+
+                        <!--</android.support.v7.widget.CardView>-->
+
+                    <!--</LinearLayout>-->
+                <!--</LinearLayout>-->
+
+            </LinearLayout>
+
+        </ScrollView>
+</LinearLayout>

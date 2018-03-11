@@ -7,6 +7,7 @@ import android.view.View;
 
 import fusion.pvpp.event.fusion.Registration.Register;
 
+import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 /**
  * Created by root on 14/2/16.
@@ -18,9 +19,9 @@ public class Tpp extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.tpp);
 
-//        mAdViewtpp = (AdView) findViewById(R.id.adViewtpp);
-//        AdRequest adRequest = new AdRequest.Builder().build();
-//        mAdViewtpp.loadAd(adRequest);
+        mAdViewtpp = (AdView) findViewById(R.id.adViewtpp);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        mAdViewtpp.loadAd(adRequest);
     }
     public void register(View view)
     {
