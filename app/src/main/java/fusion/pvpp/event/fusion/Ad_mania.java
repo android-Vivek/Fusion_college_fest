@@ -16,12 +16,16 @@ public class Ad_mania extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ad_mania);
         mAdView = (AdView) findViewById(R.id.adViewad_man);
+        // added comment testing code for testing purpose
         AdRequest adRequest = new AdRequest.Builder().build();
         mAdView.loadAd(adRequest);
     }
     public void register(View view)
     {
+        // Intent use to redirect on registration page
         Intent intent = new Intent(this,Register.class);
         startActivity(intent);
+
+        //second commit
     }
 }
