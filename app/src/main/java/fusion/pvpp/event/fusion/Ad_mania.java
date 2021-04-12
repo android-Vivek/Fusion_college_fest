@@ -21,6 +21,7 @@ public class Ad_mania extends AppCompatActivity {
     }
     public void register(View view)
     {
+        // Intent use to redirect on registration page
         Intent intent = new Intent(this,Register.class);
         startActivity(intent);
     }
