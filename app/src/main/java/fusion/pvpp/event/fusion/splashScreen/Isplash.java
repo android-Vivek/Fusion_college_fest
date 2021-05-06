@@ -7,4 +7,6 @@ package fusion.pvpp.event.fusion.splashScreen;
 public interface Isplash {
 
     void finishAnimation();
+
+
 }
